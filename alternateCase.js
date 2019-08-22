@@ -1,3 +1,13 @@
+/*
+Question:
+Write a program that, given an input sentence, alternates the case of every alphabetic character, starting with uppercase. Spaces and non-alphabetical characters should be added to the final output as is, i.e. they should not be taken into account when alternating between upper/lowercase.
+Input
+
+Your program should read lines from standard input. Each line contains a sentence. Assume all characters are ASCII.
+Output
+
+For each sentence from standard input, print to standard output the sentence such that the first character is uppercase, the next character is lowercase and so on.
+*/
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
